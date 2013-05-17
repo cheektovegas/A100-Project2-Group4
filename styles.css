@@ -6,12 +6,11 @@ body{
 	position:absolute;
 	top: 7%;
 	left: 4%;
-	border-style:solid;
 	border-width:2px;
 	border-color:#0072BC;
 	border-radius:5px;
 	padding:5px 10px;
-	width:75%;
+	width:85%;
 	height:200px;
 	background-color:#FFFFFF;
 	}
@@ -36,7 +35,6 @@ body{
     position:absolute;
 	word-wrap: break-word;
 	width:350px;
-	border-style:solid;
 	border-width:2px;
 	border-color:#0072BC;
 	border-radius:5px;
@@ -45,14 +43,15 @@ body{
 
 }
 
-h3{
+.header{
 	color:#464646;
-	font-family:arial;
+	font-family:georgia;
 	float:left;
 	position: absolute; 
-	top: 200px; 
 	left: 0; 
+	top:-50px;
     width: 100%; 
+	font-size:absolute;
 
 }
 
@@ -66,7 +65,6 @@ h3{
 	font-size:25px;
 	padding:5px 20px;
 	background-color:#FFFFFF;
-	border-style:solid;
 	border-width:2px;
 	border-color:#0072BC;
 	border-radius:5px;
@@ -78,10 +76,9 @@ h3{
 	
 	width:400px;
 	min-height:100px;
-	top:63%;
+	top:42%;
 	left: 35%;
 	position: absolute;
-	border-style:solid;
 	border-width:2px;
 	border-color:#0072BC;
 	border-radius:5px;
@@ -111,4 +108,16 @@ a:hover {
 	color:#66ccff;
 	text-decoration: none;
 	font-family:georgia;
+}
+
+.companyLogo{
+	width:75%;
+	height:75%
+	float:left;
+}
+
+.adSpace{
+	position: absolute;
+	left:70%;
+	top:55%;
 }
