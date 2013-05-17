@@ -1,0 +1,114 @@
+body{
+ background-color:#F7F7F7;
+}
+
+.banner{
+	position:absolute;
+	top: 7%;
+	left: 4%;
+	border-style:solid;
+	border-width:2px;
+	border-color:#0072BC;
+	border-radius:5px;
+	padding:5px 10px;
+	width:75%;
+	height:200px;
+	background-color:#FFFFFF;
+	}
+	
+#nav{
+	float:right;
+	z-index: 200;
+	list-style: none outside none;
+	line-height: 1;
+	word-wrap: break-word;
+}
+
+#nav li {
+    float: left;
+    width: auto;
+}
+
+.jobBoardInfo{
+
+	top:42%;
+	left: 4%;
+    position:absolute;
+	word-wrap: break-word;
+	width:350px;
+	border-style:solid;
+	border-width:2px;
+	border-color:#0072BC;
+	border-radius:5px;
+	padding:5px 20px;
+	background-color:#FFFFFF;
+
+}
+
+h3{
+	color:#464646;
+	font-family:arial;
+	float:left;
+	position: absolute; 
+	top: 200px; 
+	left: 0; 
+    width: 100%; 
+
+}
+
+.positionName{
+	top:63%;
+	left: 4%;
+    position:absolute;
+	word-wrap: break-word;
+	width:350px;
+	height:50%;
+	font-size:25px;
+	padding:5px 20px;
+	background-color:#FFFFFF;
+	border-style:solid;
+	border-width:2px;
+	border-color:#0072BC;
+	border-radius:5px;
+}
+
+ .positionInfo{
+ 
+    display:none;
+	
+	width:400px;
+	min-height:100px;
+	top:63%;
+	left: 35%;
+	position: absolute;
+	border-style:solid;
+	border-width:2px;
+	border-color:#0072BC;
+	border-radius:5px;
+	padding:5px 20px;
+	background-color:#FFFFFF;
+}
+
+p{
+	color:#464646;
+ 	font-family:georgia;
+}
+
+
+a:visited{
+	color:#0072BC;
+	text-decoration: underline;
+	font-family:georgia;
+}
+
+a{
+	color:#0072BC;
+	text-decoration: none;
+	font-family:georgia;
+}
+
+a:hover {
+	color:#66ccff;
+	text-decoration: none;
+	font-family:georgia;
+}
